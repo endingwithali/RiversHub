@@ -1,6 +1,6 @@
 # RiversHub
 
-![github octocat on the weezer blue background][/weezeroctocat.JPEG]
+<img src="./weezeroctocat.JPEG" width="29%"/>
 
 This is a chrome extension that makes your GitHub profile into Weezer colors and maps your GitHub  commit log into a playable midi soundtrack! 
 
