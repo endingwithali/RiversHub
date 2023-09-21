@@ -1,5 +1,9 @@
 # RiversHub
+
+![github octocat on the weezer blue background][weezeroctocat.JPEG]
+
 This is a chrome extension that makes your GitHub profile into Weezer colors and maps your GitHub  commit log into a playable midi soundtrack! 
+
 
 # Running
 
@@ -13,7 +17,7 @@ While working on the project, and dynamically save/update build of project:
 npx webpack  --watch
 ```
 
-You will need to import this as a [developer chrome extension](https://bashvlas.com/blog/install-chrome-extension-in-developer-mode/) to get it working on chrome once you've built it using webpack. m
+You will need to import this as a [developer chrome extension](https://bashvlas.com/blog/install-chrome-extension-in-developer-mode/) to get it working on chrome once you've built it using webpack. 
 
 ## Tutorials that were helpful
 - [AWS: adding webpack to your project](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/webpack.html)
