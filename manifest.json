@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "RiverHub",
+    "version": "0.1",
+    "description": "or the Weezer Packs",
+    "content_scripts": [
+        {
+        "js": ["bundle.js"],
+        "matches": ["*://github.com/*", "*://www.github.com/*"]
+        }
+    ]
+  }
