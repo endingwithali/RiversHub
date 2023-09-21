@@ -1,23 +1,34 @@
 # RiversHub
+
 <p align="center">
 <img src="./weezeroctocat.JPEG" width="29%"/>
 </p>
-This is a chrome extension that makes your GitHub profile into Weezer colors and maps your GitHub  commit log into a playable midi soundtrack! 
 
+This is a Chrome extension that makes your GitHub profile into Weezer colors and maps your GitHub  commit log into a playable audio soundtrack based off your GitHub contributions calendar! 
 
-# Running
+# Requirements 
+
+- npm
+- webpack
+
+# How to build and run locally
 
 To build, run the following command in terminal:
 ```
 npm run build
 ```
 
-While working on the project, and dynamically save/update build of project:
+
+While working on the project, dynamically save/update build of project using watch command:
 ```
 npx webpack  --watch
 ```
 
-You will need to import this as a [developer chrome extension](https://bashvlas.com/blog/install-chrome-extension-in-developer-mode/) to get it working on chrome once you've built it using webpack. 
+Once you build the project, it will generate the relevant files to get this project working as a Chrome Extension. 
+
+You will need import the folder containing the project as a [developer chrome extension](https://bashvlas.com/blog/install-chrome-extension-in-developer-mode/) to get it working on chrome once you've built it using webpack. 
+
+This project will only show up on `github.com/*` pages that have a contribution calendar. 
 
 ## Tutorials that were helpful
 - [AWS: adding webpack to your project](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/webpack.html)
