@@ -6,7 +6,8 @@
     "content_scripts": [
         {
         "js": ["bundle.js"],
-        "matches": ["*://github.com/*", "*://www.github.com/*"]
+        "matches": ["*://github.com/*", "*://www.github.com/*"],
+        "run_at" : "document_idle"
         }
     ]
   }
