@@ -36,3 +36,4 @@ This project will only show up on `github.com/*` pages that have a contribution 
 - [Synthesizer example](https://tonejs.github.io/examples/stepSequencer)
 - [Trav's Synthesizer Tutorial](https://blog.techsavvytravvy.com/make-a-synthesizer-with-tonejs)
 - [How to see printout of chrome extension](https://stackoverflow.com/questions/3829150/google-chrome-extension-console-log-from-background-page)
+- [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
